@@ -2,9 +2,11 @@
   <img src="assets/banner.svg" alt="Humanoid Robots Banner">
 </p>
 
-# Humanoid-Robots
+# 🤖 Humanoid-Robots - Ultimate Directory of Advanced Robotics
 
-#Huanoid robots by DOF
+Discover the most advanced humanoid robots ranked by their Degrees of Freedom (DoF). This comprehensive list covers enterprise, commercial, and research robotics, providing insights into pricing, applications, and manufacturers.
+
+## 📊 Humanoid robots by DOF
 
 | Rank | Humanoid Robot | Manufacturer / Developer | Total Degrees of Freedom (DoF) | Estimated Price / Status (2026) | Primary Focus / Applications |
 | :--- | :--- | :--- | :---: | :--- | :--- |
