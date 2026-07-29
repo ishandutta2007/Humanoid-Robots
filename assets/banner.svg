@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;200%;100%" dur="5s" repeatCount="indefinite" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="10" />
+  
+  <g stroke="#334155" stroke-width="1" opacity="0.3">
+    <path d="M0 20 H800 M0 40 H800 M0 60 H800 M0 80 H800 M0 100 H800 M0 120 H800 M0 140 H800 M0 160 H800 M0 180 H800" />
+    <path d="M20 0 V200 M40 0 V200 M60 0 V200 M80 0 V200 M100 0 V200 M120 0 V200 M140 0 V200 M160 0 V200 M180 0 V200 M200 0 V200 M220 0 V200 M240 0 V200 M260 0 V200 M280 0 V200 M300 0 V200 M320 0 V200 M340 0 V200 M360 0 V200 M380 0 V200 M400 0 V200 M420 0 V200 M440 0 V200 M460 0 V200 M480 0 V200 M500 0 V200 M520 0 V200 M540 0 V200 M560 0 V200 M580 0 V200 M600 0 V200 M620 0 V200 M640 0 V200 M660 0 V200 M680 0 V200 M700 0 V200 M720 0 V200 M740 0 V200 M760 0 V200 M780 0 V200" />
+  </g>
+
+  <path d="M 0 150 Q 200 100 400 150 T 800 150" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.5" filter="url(#glow)">
+    <animate attributeName="d" values="M 0 150 Q 200 100 400 150 T 800 150; M 0 150 Q 200 200 400 150 T 800 150; M 0 150 Q 200 100 400 150 T 800 150" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M 0 50 Q 200 100 400 50 T 800 50" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.3">
+    <animate attributeName="d" values="M 0 50 Q 200 100 400 50 T 800 50; M 0 50 Q 200 0 400 50 T 800 50; M 0 50 Q 200 100 400 50 T 800 50" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="400" y="115" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="56" font-weight="bold" fill="url(#text-grad)" text-anchor="middle" filter="url(#glow)">
+    Humanoid Robots
+  </text>
+  
+  <text x="400" y="155" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle" letter-spacing="4">
+    NEXT GENERATION ROBOTICS
+  </text>
+  
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#38bdf8" stroke-width="4">
+    <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="100" cy="100" r="10" fill="#38bdf8" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="700" cy="100" r="20" fill="none" stroke="#818cf8" stroke-width="4">
+    <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="700" cy="100" r="10" fill="#818cf8" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>

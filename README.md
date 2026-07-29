@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Humanoid Robots Banner">
+</p>
+
 # Humanoid-Robots
 
 #Huanoid robots by DOF
