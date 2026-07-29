@@ -1,5 +1,7 @@
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <img src="assets/banner.svg" alt="Humanoid Robots Banner">
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 # 🤖 Humanoid-Robots - Ultimate Directory of Advanced Robotics
@@ -23,3 +25,14 @@ Discover the most advanced humanoid robots ranked by their Degrees of Freedom (D
 | **11** | [Phoenix](https://humanoidroboticstechnology.com) | [Sanctuary AI](https://humanoidroboticstechnology.com) | **30+** | $150,000 – $300,000 (Pilot Restricted) | Collaborative workplace tasks and cognitive AI testing |
 | **12** | [G1](https://arxiv.org) | [Unitree Robotics](https://arxiv.org) | **29** | $13,500 (Base) / $43,900+ (EDU version) | Mass-market research, education, and domestic help |
 
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FHumanoid-Robots&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Humanoid-Robots&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Humanoid-Robots&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Humanoid-Robots&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
